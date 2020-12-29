@@ -119,6 +119,7 @@ a {
 
 #main .search-bar input {
   width: 584px;
+  max-width: 95vw;
   height: 44px;
   border: 1px solid #dfe1e5;
   border-radius: 10000px;
@@ -182,5 +183,82 @@ a {
 #main .search-buttons button:hover {
   border: 1px solid #c7c7c7;
   color: #2e2e2e;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 40px;
+}
+
+@media (max-width: 650px) {
+  #footer {
+    height: 70px;
+  }
+}
+
+#footer .container {
+  width: 98.5%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 650px) {
+  #footer .container {
+    padding: 1rem 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#footer .container li {
+  padding-left: 20px;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+#footer .container li a:hover {
+  text-decoration: underline;
+}
+
+#footer .container .left-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#footer .container .right-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+#footer .container .right-links-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
