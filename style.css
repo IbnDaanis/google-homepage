@@ -179,6 +179,7 @@ a {
   min-width: 54px;
   text-align: center;
   cursor: pointer;
+  outline: 0;
 }
 
 #main .search-buttons button:hover {
