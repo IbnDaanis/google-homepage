@@ -57,7 +57,7 @@ a {
       }
       img {
         width: 25px;
-        height: auto;
+        height: 29px;
         transform: translateY(2px);
         opacity: 0.8;
         &:hover {
@@ -75,7 +75,8 @@ a {
   margin-top: 6rem;
   .logo {
     &-image {
-      width: 100%;
+      width: 272px;
+      height: 92px;
     }
   }
   .search {

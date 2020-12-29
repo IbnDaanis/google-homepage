@@ -81,7 +81,7 @@ a {
 
 #header .nav .right-links img {
   width: 25px;
-  height: auto;
+  height: 29px;
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
   opacity: 0.8;
@@ -109,7 +109,8 @@ a {
 }
 
 #main .logo-image {
-  width: 100%;
+  width: 272px;
+  height: 92px;
 }
 
 #main .search-bar {
