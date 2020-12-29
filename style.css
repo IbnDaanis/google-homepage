@@ -17,7 +17,7 @@ a {
 
 #header .nav {
   height: 100%;
-  width: 98%;
+  width: 98.5%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,9 +31,13 @@ a {
 }
 
 #header .nav li {
-  padding-left: 15px;
+  padding-left: 16px;
   opacity: 0.75;
   font-size: 13px;
+}
+
+#header .nav li a:hover {
+  text-decoration: underline;
 }
 
 #header .nav .left-links-list {
@@ -71,7 +75,20 @@ a {
   font-weight: bold;
   outline: none;
   background: #4285f4;
-  margin: 0 15px 0 15px;
+  margin: 0 18px 0 15px;
+  cursor: pointer;
+}
+
+#header .nav .right-links img {
+  width: 25px;
+  height: auto;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  opacity: 0.8;
+}
+
+#header .nav .right-links img:hover {
+  opacity: 1;
 }
 
 #main {

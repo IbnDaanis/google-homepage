@@ -14,15 +14,20 @@ a {
 
   .nav {
     height: 100%;
-    width: 98%;
+    width: 98.5%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     li {
-      padding-left: 15px;
+      padding-left: 16px;
       opacity: 0.75;
       font-size: 13px;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
     .left-links {
       &-list {
@@ -51,7 +56,17 @@ a {
         font-weight: bold;
         outline: none;
         background: #4285f4;
-        margin: 0 15px 0 15px;
+        margin: 0 18px 0 15px;
+        cursor: pointer;
+      }
+      img {
+        width: 25px;
+        height: auto;
+        transform: translateY(2px);
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
       }
     }
   }
