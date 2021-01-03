@@ -59,7 +59,8 @@
   border: none;
   outline: none;
   border-radius: 2px;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 14px;
   outline: none;
   background: #4285f4;
   margin: 0 18px 0 15px;
