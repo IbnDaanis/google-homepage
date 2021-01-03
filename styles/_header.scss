@@ -1,0 +1,55 @@
+.header {
+  height: 60px;
+  .nav {
+    height: 100%;
+    width: 98.5%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      padding-left: 16px;
+      opacity: 0.75;
+      font-size: 13px;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .left-links {
+      &-list {
+        display: flex;
+        list-style: none;
+      }
+    }
+    .right-links {
+      display: flex;
+      align-items: center;
+      &-list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+      }
+      button {
+        color: white;
+        padding: 7px 12px;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        font-weight: bold;
+        outline: none;
+        background: #4285f4;
+        margin: 0 18px 0 15px;
+        cursor: pointer;
+      }
+      .google-products-button {
+        transform: translateY(2px);
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
